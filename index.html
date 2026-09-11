@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musafir Cafe | Artisanal Coffee & Mountain Kitchen in Jharipani, Mussoorie</title>
+  <meta name="description" content="Welcome to Musafir Cafe, Jharipani, Mussoorie. Savor handcrafted espresso, Himalayan teas, artisanal sourdough, and panoramic Doon Valley sunset views. Call +91 8287201301.">
+  <meta name="keywords" content="Musafir Cafe, Mussoorie Cafe, Jharipani Cafe, Best coffee in Mussoorie, Uttarakhand Cafes, Mountain Cafe Mussoorie">
+  <meta name="theme-color" content="#24140E">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Musafir Cafe | Jharipani, Mussoorie">
+  <meta property="og:description" content="Where wanderers find warmth, mountain brews, and breathtaking Doon Valley sunsets. Perched along the pines of Jharipani, Mussoorie.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Local Business Structured Data (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Musafir Cafe",
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+918287201301",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jharipani",
+      "addressLocality": "Mussoorie",
+      "addressRegion": "Uttarakhand",
+      "postalCode": "248179",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "30.4356",
+      "longitude": "78.0776"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "08:00",
+      "closes": "22:30"
+    },
+    "priceRange": "₹₹",
+    "servesCuisine": ["Coffee", "Continental", "Himalayan", "Bakery", "Beverages"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-item">
+        <span class="pulse-dot"></span>
+        <span>Open Today: <strong>8:00 AM – 10:30 PM</strong></span>
+      </div>
+      <div class="top-bar-item location-pill">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <span>Jharipani, Mussoorie, Uttarakhand</span>
+      </div>
+      <div class="top-bar-item contact-pill">
+        <a href="tel:+918287201301" class="top-call-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>Call: +91 8287201301</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Main Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-symbol">☕</span>
+        <div class="logo-text">
+          <span class="brand-name">MUSAFIR</span>
+          <span class="brand-sub">CAFE • MUSSOORIE</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#story" class="nav-link">Our Story</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#vibe" class="nav-link">The Vibe</a>
+        <a href="#reviews" class="nav-link">Travelers' Wall</a>
+        <a href="#contact" class="nav-link">Find Us</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="nav-actions">
+        <!-- Cart Badge Button -->
+        <button type="button" class="cart-btn" id="openCartBtn" aria-label="View Order Tray">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+          <span class="cart-label">Order</span>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+
+        <button type="button" class="btn btn-primary nav-reserve-btn" id="openReserveBtn">
+          <span>Book Table</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="hamburger-btn" id="hamburgerBtn" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="drawer-header">
+        <div class="logo-text">
+          <span class="brand-name">MUSAFIR CAFE</span>
+          <span class="brand-sub">JHARIPANI, MUSSOORIE</span>
+        </div>
+        <button type="button" class="drawer-close" id="closeDrawerBtn" aria-label="Close menu">&times;</button>
+      </div>
+      <nav class="drawer-links">
+        <a href="#hero" class="drawer-link">Home</a>
+        <a href="#story" class="drawer-link">Our Story</a>
+        <a href="#menu" class="drawer-link">Food & Brew Menu</a>
+        <a href="#vibe" class="drawer-link">Ambiance & Gallery</a>
+        <a href="#reviews" class="drawer-link">Traveler Reviews</a>
+        <a href="#contact" class="drawer-link">Directions & Contact</a>
+      </nav>
+      <div class="drawer-footer">
+        <a href="tel:+918287201301" class="btn btn-secondary drawer-action-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>Call 8287201301</span>
+        </a>
+        <a href="https://wa.me/918287201301?text=Hi%20Musafir%20Cafe,%20I%20would%20like%20to%20know%20more%20about%20your%20cafe%20in%20Jharipani!" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp drawer-action-btn">
+          <span>WhatsApp Chat</span>
+        </a>
+      </div>
+    </div>
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="badge-icon">🌲</span>
+          <span>Nestled in Jharipani, Mussoorie • Elevation 6,500 ft</span>
+        </div>
+        <h1 class="hero-title">
+          Where Wanderers Find <span class="highlight-text">Warmth & Coffee</span>
+        </h1>
+        <p class="hero-description">
+          Step away from the crowded bustle of Mall Road. Inhale the crisp mountain breeze, listen to the whispering deodars, and savor artisanal estate roasts, comforting Himalayan fare, and golden hour over the Doon Valley.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#menu" class="btn btn-primary btn-lg">
+            <span>Explore Menu</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <button type="button" class="btn btn-glass btn-lg" id="heroReserveBtn">
+            <span>Reserve a Table</span>
+          </button>
+          <a href="https://wa.me/918287201301?text=Hi%20Musafir%20Cafe!%20I%20would%20like%20to%20order%20or%20inquire." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- Highlights Row -->
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-icon">☕</span>
+            <div class="stat-info">
+              <span class="stat-title">100% Arabica</span>
+              <span class="stat-sub">Specialty Single-Origin</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">🏔️</span>
+            <div class="stat-info">
+              <span class="stat-title">Doon Valley View</span>
+              <span class="stat-sub">Scenic Open Deck</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">🔥</span>
+            <div class="stat-info">
+              <span class="stat-title">Bonfire & Music</span>
+              <span class="stat-sub">Cozy Mountain Evenings</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">🐾</span>
+            <div class="stat-info">
+              <span class="stat-title">Pet Friendly</span>
+              <span class="stat-sub">& Free Fast Wi-Fi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="section story-section" id="story">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-images">
+            <div class="story-image-main">
+              <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Cozy wooden cafe corner at Musafir Cafe" loading="lazy">
+            </div>
+            <div class="story-image-sub">
+              <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80" alt="Artisanal pour over coffee brewing" loading="lazy">
+            </div>
+            <div class="story-stamp">
+              <span class="stamp-year">ESTD</span>
+              <span class="stamp-loc">JHARIPANI</span>
+              <span class="stamp-motto">SOULFUL BREWS</span>
+            </div>
+          </div>
+
+          <div class="story-content">
+            <span class="section-tag">THE MUSAFIR CHRONICLES</span>
+            <h2 class="section-title">Built for the Dreamer, the Roamer & the Coffee Lover</h2>
+            <p class="story-text lead">
+              In Persian and Hindi, <strong>"Musafir"</strong> means the traveler—someone whose heart finds home not in a fixed destination, but in the journeys taken, the conversations shared, and the quiet moments between mountains.
+            </p>
+            <p class="story-text">
+              We chose <strong>Jharipani</strong>—the quieter, greener foothill ridge of Mussoorie—to create a sanctuary where the scent of roasted coffee beans mingles with pine resin and woodsmoke.
+            </p>
+
+            <div class="story-features">
+              <div class="feature-item">
+                <div class="feature-icon">🌿</div>
+                <div>
+                  <h4>Serenity Away from Crowds</h4>
+                  <p>Located on the scenic Jharipani stretch, just 15 minutes below Mall Road, overlooking misty gorges.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">📖</div>
+                <div>
+                  <h4>Travelers' Books & Board Games</h4>
+                  <p>Pick a book from our reading nook, play chess beside the fire, or work remotely with blazing Wi-Fi.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">🥘</div>
+                <div>
+                  <h4>Himalayan Soul Kitchen</h4>
+                  <p>From bubbling hot mountain Maggi bowls and Tibetan dumplings to artisanal sourdough and oven-baked pies.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-action">
+              <a href="tel:+918287201301" class="btn btn-secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>Call Us: 8287201301</span>
+              </a>
+              <a href="#contact" class="link-arrow">
+                <span>View Route Map</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section with Interactive Filtering & WhatsApp Ordering -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">HANDCRAFTED TASTES</span>
+          <h2 class="section-title">The Musafir Mountain Menu</h2>
+          <p class="section-subtitle">
+            Freshly pulled shots, slow pour-overs, comforting mountain bites, and decadent desserts prepared daily with mountain spring water and locally sourced ingredients.
+          </p>
+        </div>
+
+        <!-- Menu Filter Tabs -->
+        <div class="menu-tabs" id="menuTabs" role="tablist">
+          <button type="button" class="tab-btn active" data-category="all" role="tab" aria-selected="true">All Items</button>
+          <button type="button" class="tab-btn" data-category="coffee" role="tab" aria-selected="false">☕ Artisan Coffee</button>
+          <button type="button" class="tab-btn" data-category="tea" role="tab" aria-selected="false">🍵 Teas & Warmers</button>
+          <button type="button" class="tab-btn" data-category="comforts" role="tab" aria-selected="false">🥟 Mountain Comforts</button>
+          <button type="button" class="tab-btn" data-category="bakery" role="tab" aria-selected="false">🍰 Bakery & Sweet</button>
+          <button type="button" class="tab-btn" data-category="cold" role="tab" aria-selected="false">🧊 Cold Refreshers</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menuGrid">
+          <!-- Populated by app.js -->
+        </div>
+
+        <!-- Bottom Menu Note / WhatsApp CTA -->
+        <div class="menu-footer-callout">
+          <div class="callout-content">
+            <h3>Craving a customized brew or dietary preference?</h3>
+            <p>We provide oat, almond, and whole dairy milk options. Vegan and gluten-sensitive snacks available.</p>
+          </div>
+          <div class="callout-actions">
+            <a href="https://wa.me/918287201301?text=Hi%20Musafir%20Cafe!%20I%20have%20a%20dietary%20preference%20or%20menu%20question." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <span>Ask Our Barista on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Vibe / Experience & Gallery Section -->
+    <section class="section vibe-section" id="vibe">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">EXPERIENCE JHARIPANI</span>
+          <h2 class="section-title">A Symphony of Mist, Wood & Music</h2>
+          <p class="section-subtitle">
+            Every corner of Musafir Cafe is thoughtfully created for lingering conversations, artistic inspiration, and serene solitude.
+          </p>
+        </div>
+
+        <div class="vibe-features-grid">
+          <div class="vibe-card">
+            <div class="vibe-card-img">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80" alt="Outdoor panoramic deck with valley view" loading="lazy">
+            </div>
+            <div class="vibe-card-body">
+              <span class="vibe-badge">Golden Hour Spot</span>
+              <h3>Panoramic Valley Deck</h3>
+              <p>Watch the clouds drift across the Dehradun valley while your freshly brewed V60 pour-over cools to perfection.</p>
+            </div>
+          </div>
+
+          <div class="vibe-card">
+            <div class="vibe-card-img">
+              <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80" alt="Warm wooden indoor fireplace lounge" loading="lazy">
+            </div>
+            <div class="vibe-card-body">
+              <span class="vibe-badge">Cozy Evenings</span>
+              <h3>Fireplace & Acoustic Nights</h3>
+              <p>When the Mussoorie evening chill sets in, gather around our hearth for soulful indie tunes and hot spiced cider.</p>
+            </div>
+          </div>
+
+          <div class="vibe-card">
+            <div class="vibe-card-img">
+              <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?auto=format&fit=crop&w=700&q=80" alt="Reading nook and travel books" loading="lazy">
+            </div>
+            <div class="vibe-card-body">
+              <span class="vibe-badge">Wanderer's Nook</span>
+              <h3>Writers & Digital Nomads</h3>
+              <p>Equipped with high-speed fiber internet, power sockets at every wooden desk, and a curated library of travel books.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo Gallery Strip -->
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=500&q=80" alt="Freshly roasted coffee beans" loading="lazy">
+            <span class="gallery-caption">Single-Origin Roast</span>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?auto=format&fit=crop&w=500&q=80" alt="Steaming mug on wooden mountain ledge" loading="lazy">
+            <span class="gallery-caption">Himalayan Mornings</span>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=500&q=80" alt="Artisanal hot chocolate with marshmallows" loading="lazy">
+            <span class="gallery-caption">Belgian Hot Chocolate</span>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=80" alt="Wood fired artisanal pizza slice" loading="lazy">
+            <span class="gallery-caption">Crispy Stone Pizzas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Table Reservation Section -->
+    <section class="section reserve-section" id="reserve">
+      <div class="container">
+        <div class="reserve-wrapper">
+          <div class="reserve-content">
+            <span class="section-tag light">PLAN YOUR VISIT</span>
+            <h2 class="section-title text-white">Reserve Your Cozy Spot in the Hills</h2>
+            <p class="reserve-desc">
+              Whether you are planning a romantic sunset date overlooking the Doon valley, a quiet work session, or an evening gathering with fellow wanderers, book ahead to guarantee your preferred table.
+            </p>
+
+            <div class="reserve-contact-info">
+              <div class="info-block">
+                <span class="info-label">Direct Phone Line</span>
+                <a href="tel:+918287201301" class="info-val">+91 8287201301</a>
+              </div>
+              <div class="info-block">
+                <span class="info-label">WhatsApp Quick Assist</span>
+                <a href="https://wa.me/918287201301?text=Hi%20Musafir%20Cafe!%20I%20want%20to%20reserve%20a%20table%20for%20today." target="_blank" rel="noopener noreferrer" class="info-val">Chat on WhatsApp</a>
+              </div>
+              <div class="info-block">
+                <span class="info-label">Address</span>
+                <span class="info-val text-muted">Jharipani, Mussoorie, UK 248179</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reserve-card">
+            <h3>Book a Table</h3>
+            <p class="form-intro">Instant confirmation via WhatsApp & SMS</p>
+
+            <form id="reservationForm" class="reservation-form">
+              <div class="form-group">
+                <label for="resName">Full Name *</label>
+                <input type="text" id="resName" name="name" required placeholder="e.g. Aarav Sharma">
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="resPhone">Phone Number *</label>
+                  <input type="tel" id="resPhone" name="phone" required placeholder="e.g. 9876543210">
+                </div>
+                <div class="form-group">
+                  <label for="resGuests">Guests *</label>
+                  <select id="resGuests" name="guests">
+                    <option value="1">1 Wanderer</option>
+                    <option value="2" selected>2 Persons (Cozy Date)</option>
+                    <option value="3">3 Persons</option>
+                    <option value="4">4 Persons</option>
+                    <option value="5-8">5 - 8 (Group / Family)</option>
+                    <option value="9+">9+ (Party / Event)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="resDate">Date *</label>
+                  <input type="date" id="resDate" name="date" required>
+                </div>
+                <div class="form-group">
+                  <label for="resTime">Preferred Time Slot *</label>
+                  <select id="resTime" name="time">
+                    <option value="08:30 AM - Morning Mountain Brew">08:30 AM (Breakfast & Sunrise)</option>
+                    <option value="11:30 AM - Brunch & Quiet Work">11:30 AM (Brunch & Work)</option>
+                    <option value="02:30 PM - Afternoon Chai & Cakes">02:30 PM (Afternoon Refreshers)</option>
+                    <option value="05:00 PM - Sunset Golden Hour" selected>05:00 PM (Doon Valley Sunset)</option>
+                    <option value="07:30 PM - Bonfire & Dinner">07:30 PM (Bonfire Dinner)</option>
+                    <option value="09:00 PM - Starlit Nightcap">09:00 PM (Starlit Coffee)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="resSeating">Seating Preference</label>
+                <select id="resSeating" name="seating">
+                  <option value="Open Valley Deck (Sunset View)">Outdoor Open Valley Deck (Sunset View)</option>
+                  <option value="Indoor Wooden Hearth / Fireplace">Indoor Cozy Wooden Lounge by Fireplace</option>
+                  <option value="Quiet Book Nook & Work Table">Traveler's Book Nook / High-Speed Wi-Fi</option>
+                  <option value="Any Available Best Table">Any Available Good Table</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="resNotes">Special Requests (Optional)</label>
+                <input type="text" id="resNotes" name="notes" placeholder="Birthday, anniversary, pet with us, etc.">
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Confirm Reservation via WhatsApp</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+              <p class="privacy-notice">We respect your privacy. Instant booking sent directly to Musafir Cafe at +91 8287201301.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Travelers' Wall / Reviews Section -->
+    <section class="section reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">VOICES OF MUSAFIR</span>
+          <h2 class="section-title">Words from Fellow Wanderers</h2>
+          <p class="section-subtitle">Read why travelers, bikers, writers, and couples visiting Mussoorie fall in love with Musafir Cafe in Jharipani.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "The most peaceful cafe in the whole Mussoorie region! The pour-over coffee was rich and smooth, and the view of the valley from Jharipani is 100 times better than crowded Mall Road."
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">KS</div>
+              <div>
+                <h4>Kabir Singhal</h4>
+                <p>Road-tripper from Chandigarh • <span>Visited Oct 2025</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card featured">
+            <div class="featured-badge">Wanderer's Favorite</div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Ordered their Himalayan Spiced Hot Chocolate and Mountain Maggi bowl after trekking down from Jharipani Falls. The staff was so welcoming and the bonfire at sunset made my evening unforgettable!"
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">PM</div>
+              <div>
+                <h4>Priyanka Mathur</h4>
+                <p>Solo Backpacker from Delhi • <span>Visited Dec 2025</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "As a remote software engineer spending a month in Uttarakhand, Musafir Cafe was my daily sanctuary. Blazing fast Wi-Fi, endless mugs of Americano, and friendly fellow travelers."
+            </p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">RD</div>
+              <div>
+                <h4>Rohan Deshmukh</h4>
+                <p>Digital Nomad from Pune • <span>Visited Feb 2026</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="section-tag">FIND YOUR WAY</span>
+            <h2 class="section-title">Visit Us in Jharipani, Mussoorie</h2>
+            <p class="lead-desc">
+              Situated on the picturesque Dehradun-Jharipani-Mussoorie bypass road, just before the main town. Perfect stop on your mountain road trip.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="detail-item">
+                <div class="detail-icon">📍</div>
+                <div>
+                  <h4>Cafe Address</h4>
+                  <p><strong>Musafir Cafe</strong>, Jharipani, Mussoorie, Uttarakhand 248179, India</p>
+                  <span class="landmark-tag">Near Jharipani Falls & Oak Grove School</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">📞</div>
+                <div>
+                  <h4>Phone & Direct Booking</h4>
+                  <p><a href="tel:+918287201301" class="bold-link">+91 8287201301</a></p>
+                  <span class="subtext">Available 8:00 AM – 10:30 PM for orders, bookings, and directions</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">💬</div>
+                <div>
+                  <h4>Instant WhatsApp</h4>
+                  <p><a href="https://wa.me/918287201301?text=Hi%20Musafir%20Cafe,%20could%20you%20share%20directions%20from%20Dehradun?" target="_blank" rel="noopener noreferrer" class="whatsapp-text-link">+91 8287201301 (Click to Chat)</a></p>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">⏰</div>
+                <div>
+                  <h4>Operating Hours</h4>
+                  <p>Monday to Sunday: <strong>8:00 AM – 10:30 PM</strong></p>
+                  <span class="subtext">Breakfast, Lunch, Sunset Chai, and Bonfire Dinner</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">🚗</div>
+                <div>
+                  <h4>Parking & Access</h4>
+                  <p>Ample dedicated car & motorcycle parking right beside the cafe. Pet friendly outdoor deck.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-buttons-row">
+              <a href="tel:+918287201301" class="btn btn-primary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>Call 8287201301</span>
+              </a>
+              <a href="https://www.google.com/maps/search/?api=1&query=Jharipani+Mussoorie+Uttarakhand" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+                <span>Get Driving Directions</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Map Container -->
+          <div class="contact-map-card">
+            <div class="map-header">
+              <div class="map-dot"></div>
+              <span>Live Google Map Route — Jharipani, Mussoorie</span>
+            </div>
+            <div class="map-iframe-wrapper">
+              <iframe 
+                src="https://maps.google.com/maps?q=Jharipani,%20Mussoorie,%20Uttarakhand&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="380" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Google Map location of Musafir Cafe in Jharipani, Mussoorie">
+              </iframe>
+            </div>
+            <div class="map-card-footer">
+              <div class="distance-pill">
+                <span>📍 Mall Road Mussoorie: ~15 mins</span>
+              </div>
+              <div class="distance-pill">
+                <span>📍 Dehradun City: ~45 mins</span>
+              </div>
+              <div class="distance-pill">
+                <span>📍 Jharipani Falls: ~5 mins</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Slide-out Cart / Order Tray Drawer -->
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartDrawerTitle" aria-hidden="true">
+    <div class="cart-drawer-header">
+      <div>
+        <h3 id="cartDrawerTitle">Your Order Tray</h3>
+        <p class="cart-subtitle">Musafir Cafe • Jharipani, Mussoorie</p>
+      </div>
+      <button type="button" class="drawer-close" id="closeCartBtn" aria-label="Close Order Tray">&times;</button>
+    </div>
+
+    <div class="cart-drawer-items" id="cartDrawerItems">
+      <div class="empty-cart-state">
+        <span class="empty-icon">☕</span>
+        <h4>Your tray is empty</h4>
+        <p>Explore our menu and add your favorite coffees and mountain bites!</p>
+      </div>
+    </div>
+
+    <div class="cart-drawer-footer" id="cartDrawerFooter">
+      <div class="cart-summary-row">
+        <span>Estimated Total:</span>
+        <span class="cart-total-price" id="cartTotalPrice">₹0</span>
+      </div>
+      <p class="tax-note">* Taxes included. Prepared fresh at Musafir Cafe counter.</p>
+      <button type="button" class="btn btn-whatsapp btn-block" id="sendWhatsAppOrderBtn" disabled>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        <span>Send Order via WhatsApp</span>
+      </button>
+      <a href="tel:+918287201301" class="cart-call-direct">Or call to order: +91 8287201301</a>
+    </div>
+  </aside>
+
+  <!-- Reservation Modal Dialog -->
+  <dialog class="modal-dialog" id="reservationModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h3>Reserve Your Table</h3>
+          <p>Musafir Cafe • Jharipani, Mussoorie</p>
+        </div>
+        <button type="button" class="drawer-close" id="closeModalBtn" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <form id="modalReservationForm">
+          <div class="form-group">
+            <label for="mResName">Full Name *</label>
+            <input type="text" id="mResName" required placeholder="Your Name">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="mResPhone">Phone Number *</label>
+              <input type="tel" id="mResPhone" required placeholder="10-digit mobile">
+            </div>
+            <div class="form-group">
+              <label for="mResGuests">Guests *</label>
+              <select id="mResGuests">
+                <option value="1">1 Person</option>
+                <option value="2" selected>2 Persons</option>
+                <option value="3">3 Persons</option>
+                <option value="4">4 Persons</option>
+                <option value="5-8">5-8 Persons</option>
+                <option value="Large Group">9+ (Group)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="mResDate">Date *</label>
+              <input type="date" id="mResDate" required>
+            </div>
+            <div class="form-group">
+              <label for="mResTime">Time Slot *</label>
+              <select id="mResTime">
+                <option value="Morning Breakfast (8:30 AM)">Morning (8:30 AM)</option>
+                <option value="Afternoon Chill (1:00 PM)">Afternoon (1:00 PM)</option>
+                <option value="Sunset Golden Hour (5:00 PM)" selected>Sunset Golden Hour (5:00 PM)</option>
+                <option value="Bonfire Evening (7:30 PM)">Bonfire Evening (7:30 PM)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mResArea">Table Preference</label>
+            <select id="mResArea">
+              <option value="Valley View Outdoor Deck">Valley View Outdoor Deck</option>
+              <option value="Indoor Wooden Hearth">Indoor Wooden Hearth / Fireplace</option>
+              <option value="Traveler Book Nook">Traveler Book Nook</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <span>Send Reservation to +91 8287201301</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastNotification" role="status" aria-live="polite"></div>
+
+  <!-- Mobile Quick Action Floating Bar -->
+  <div class="mobile-quick-bar" id="mobileQuickBar">
+    <a href="tel:+918287201301" class="quick-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      <span>Call Cafe</span>
+    </a>
+    <a href="https://wa.me/918287201301?text=Hi%20Musafir%20Cafe!%20I%20am%20visiting%20Mussoorie%20and%20would%20like%20to%20visit." target="_blank" rel="noopener noreferrer" class="quick-btn whatsapp-highlight">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Jharipani+Mussoorie+Uttarakhand" target="_blank" rel="noopener noreferrer" class="quick-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+      <span>Directions</span>
+    </a>
+    <button type="button" class="quick-btn" id="mobileCartBtn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+      <span class="m-badge" id="mobileBadgeCount">0</span>
+      <span>Tray</span>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="brand-logo footer-logo">
+          <span class="logo-symbol">☕</span>
+          <div class="logo-text">
+            <span class="brand-name">MUSAFIR CAFE</span>
+            <span class="brand-sub">JHARIPANI • MUSSOORIE</span>
+          </div>
+        </div>
+        <p class="footer-tagline">
+          A tranquil mountain coffee refuge in the Himalayan foothills of Uttarakhand. Artisanal roasts, soul-warming meals, and stories written with every sip.
+        </p>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+          <a href="https://wa.me/918287201301" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#story">Our Story & Philosophy</a></li>
+          <li><a href="#menu">Food & Beverage Menu</a></li>
+          <li><a href="#vibe">The Vibe & Gallery</a></li>
+          <li><a href="#reviews">Travelers' Reviews</a></li>
+          <li><a href="#reserve">Table Reservation</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Cafe Timings</h4>
+        <ul class="footer-timings">
+          <li><span>Monday – Sunday:</span> <strong>8:00 AM – 10:30 PM</strong></li>
+          <li><span>Sunrise Breakfast:</span> <strong>8:00 AM – 11:30 AM</strong></li>
+          <li><span>Sunset Golden Hour:</span> <strong>4:30 PM – 6:30 PM</strong></li>
+          <li><span>Bonfire Gathering:</span> <strong>7:00 PM – 10:00 PM</strong></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Direct Contact</h4>
+        <p class="footer-contact-item">
+          <strong>Phone:</strong> <a href="tel:+918287201301">+91 8287201301</a>
+        </p>
+        <p class="footer-contact-item">
+          <strong>WhatsApp:</strong> <a href="https://wa.me/918287201301" target="_blank" rel="noopener noreferrer">+91 8287201301</a>
+        </p>
+        <p class="footer-contact-item">
+          <strong>Location:</strong> Jharipani, Mussoorie, Uttarakhand 248179, India
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Musafir Cafe, Jharipani, Mussoorie. All rights reserved.</p>
+        <p class="himalayan-heart">Crafted with ❤️ in the Himalayas of Uttarakhand</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
